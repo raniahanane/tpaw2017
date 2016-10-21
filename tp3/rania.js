@@ -1,5 +1,5 @@
 $(function(){
-   if($("#nom").val()=""){
-      $(.'modal'.modal('show');
+   if($("#nom").val()=''){
+      $(.'modal').modal('show');
       }
 }); 
