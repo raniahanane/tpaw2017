@@ -1,11 +1,8 @@
-
 $(document).ready(function){
-$("#bouton").click(function (){
-                   
+$("#bouton").click(function (){                   
       if($("#Name").val()=""){
       $("Mymodel").modal();
-      }
-   
+      }   
       if($("#Prenom").val()=""){
      $("Mymodel").modal();
       }
@@ -19,9 +16,5 @@ $("#bouton").click(function (){
       }
            if($("#Adresse").val()=""){
       $("Mymodel").modal();
-      }
-                   
-                   
-                   
+      }           
    });
-
