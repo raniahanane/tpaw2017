@@ -1,6 +1,6 @@
 
 $(document).ready(function){
-$("#bouton").click(funciton (){
+$("#bouton").click(function (){
                    
       if($("#Name").val()=""){
       $("Mymodel").modal();
