@@ -1,20 +1,20 @@
 $(function(){
    if($("#Name").val()=""){
-      $(.'modal').modal('show');
+      $("Mymodel").modal();
       }
    
       if($("#Prenom").val()=""){
-      $(.'modal').modal('show');
+     $("Mymodel").modal();
       }
    
      if($("#Date de naissance").val()=""){
-      $(.'modal').modal('show');
+     $("Mymodel").modal();
       }
    
         if($("#Email").val()=""){
-      $(.'modal').modal('show');
+      $("Mymodel").modal();
       }
            if($("#Adresse").val()=""){
-      $(.'modal').modal('show');
+      $("Mymodel").modal();
       }
 }); 
