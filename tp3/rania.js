@@ -1,5 +1,8 @@
-$(function(){
-   if($("#Name").val()=""){
+
+$(document).ready(function){
+$("#bouton").click(funciton (){
+                   
+      if($("#Name").val()=""){
       $("Mymodel").modal();
       }
    
@@ -17,4 +20,8 @@ $(function(){
            if($("#Adresse").val()=""){
       $("Mymodel").modal();
       }
-}); 
+                   
+                   
+                   
+   });
+
