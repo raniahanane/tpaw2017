@@ -1,75 +1,36 @@
 <html>
 <head>
-    
-    <title>formulaire huçio</title>
-    <script type="text/javascript" src="formulaire.js" ></script>
-    <link rel="stylesheet" href="formulaire.css" />
+<title>Formulaire</title>
+<link rel="stylesheet" type="text/css" href="Formulaire.css">
+<script type="text/javascript" src="Formulaire.js"></script>
 </head>
-
-<style type="text/css">
-
-   
-
-</style>
-
 <body>
-    <center><h1>Saisie d'une fiche "Personne"</h1></center>
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                Nom:
-            </td>
-            <td>
-                <input id="nom" type="text" name="nom" value="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                Prénom:
-            </td>
-            <td>
-                <input id="prenom" type="text" name="prenom" value="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                Date de naissance:
-            </td>
-            <td>
-                <input id="dateNaissance" type="text" name="dateNaissance" placeholder="JJ/MM/AAAA">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Adresse:
-                </td>
-                <td>
-                    <input id="adresse" type="text" name="adresse" value="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Mail:
-                </td>
-                <td>
-                <input id="mail" type="text" name="mail" value="">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                </td>
-                <td>
-                    <input id="valider" type="button" value="Valider" onclick="validation()" />
-                </td>
-            </tr>  
-     
-        </tbody>
-    </table>
-
-    <div id="error"></div>
-    <div id="resultat"></div>
-
+<form  id="MonFormulaire" action="">
+</br>
+<h1><b> Saisie d'une fiche "Personne" </b></h1>
+</br>
+<table  width="100%">
+<tr>
+<td width="20%"> Nom </td>   <td><input type="text" name="Nom" id="Nom" value=""/></td>
+</tr>
+<tr>
+<td width="20%"> Prénom </td>   <td><input type="text" name="Prénom" id="Prénom" value=""/></td>
+</tr>
+<tr>
+<td width="20%"> Date de naissance </td>   <td><input type="datetime" name="anniversaire" id="anniversaire" value="" placeholder="JJ/MM/AAAA"/></td>
+</tr>
+<tr>
+<td width="20%">Adresse</td> <td><input type="text" name="adresse" id="adresse" value=""/></td>
+<tr>
+<tr>
+<td width="20%">Mail</td> <td><input type="email" name="user_mail" id="user_mail" value=""/></td>
+</tr>
+<tr>
+<td width="20%"></td> <td><input type="button" id="button" value="Valider" onclick="validation()"/></td>
+</tr>
+</table>
+</form>
+<div id="error" ></div>
+<div id="resultat" ></div>
 </body>
-
 </html>
