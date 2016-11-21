@@ -1,9 +1,9 @@
 body{
-	background-color:gray;
+	background-color:gray	
 }
 table{
-	background-color:white;
+	background-color:white
 }
-a:hover{
-	color:orange;
+a{
+	text-color:orange
 }
