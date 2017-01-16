@@ -1,0 +1,28 @@
+
+
+<form id="searchCity" 
+ <div class="weather-home">
+ <div class="overlay">
+<div class="row">
+                <div class="col-lg-offset-3 col-lg-6">
+                    <div class="input-group">
+                      <span class="input-group-btn">
+                        <button class="btn btn-warning" type="button" ng-click="gps()">GPS</button>
+                      </span>
+                      <input type="search" ng-model="city"  placeholder="City" class ="form-control"/>
+                      <span class="input-group-btn">
+                        <button class="btn btn-primary" type="button" ng-click="recherche()"> recherche</button>
+                      </span>
+                    </div>
+                </div>
+            </div>
+            <div id="result"> 
+
+    </form>
+	<div ng-if="meteo"​>
+ {{meteo.name}}
+ <img src="http://openweathermap.org/img/w/{{meteo.weather[0].icon}}​.png" />
+ <h3>{{meteo.main.temp | number:0}}​°</h3>
+ {{meteo.weather[0].description}}
+</div>
+<p ng-if="errorMsg​"> {{errorMsg}} </p>
